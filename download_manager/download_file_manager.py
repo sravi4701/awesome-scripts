@@ -5,8 +5,8 @@ def make_directory(s):
 		os.mkdir(s)
 	except:
 		print "already exist"
+url = os.path.expanduser('~') + os.path.sep + 'Downloads'
 
-url="/home/user_name/Downloads"
 os.chdir(url)
 
 pdf=[]
